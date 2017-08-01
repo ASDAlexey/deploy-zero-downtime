@@ -3,7 +3,7 @@ set -e # Prevents script from running if there are any errors.
 git stash save # Stashes everything away incase you didn't commit them
 gulp build # Step 2, insert your build script here
 REV=`git rev-parse HEAD` # Gets commit hash as message
-git checkout build # Step 3
+git checkout build-master # Step 3
 git rm -rf . # Step 4
 git checkout master -- .gitignore # Step 5
 mv dist/* . && rm -rf dist # Step 6
