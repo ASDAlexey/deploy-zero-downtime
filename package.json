@@ -1,0 +1,19 @@
+{
+  "name": "deploy-zero-downtime",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:ASDAlexey/deploy-zero-downtime.git",
+  "author": "Alexey Popov <alexey.popov@umbrella-web.com>",
+  "license": "MIT",
+  "dependencies": {
+    "babel-core": "^6.25.0",
+    "babel-preset-es2015": "^6.24.1",
+    "gulp": "^3.9.1",
+    "gulp-clean": "^0.3.2",
+    "gulp-copy": "^1.0.0",
+    "gulp-cssmin": "^0.2.0",
+    "gulp-jsmin": "^0.1.5",
+    "require-dir": "^0.3.2",
+    "run-sequence": "^2.1.0"
+  }
+}
