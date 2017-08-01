@@ -6,7 +6,7 @@ REV=`git rev-parse HEAD` # Gets commit hash as message
 git checkout build-master # Step 3
 git rm -rf . # Step 4
 git checkout master -- .gitignore # Step 5
-mv dist/* . && rm -rf dist # Step 6
+mv dist/* ./build && rm -rf dist # Step 6
 git add . # Step 7
 git commit -m "deployed $REV" # Step 8
 git push --all # Step 9
